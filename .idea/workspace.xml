@@ -41,8 +41,10 @@
           <file leaf-file-name="calldd.pyw" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/projekt 3/calldd.pyw">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="30" selection-start="698" selection-end="698" vertical-scroll-proportion="0.53608245" vertical-offset="84" max-vertical-offset="990">
-                  <folding />
+                <state line="20" column="44" selection-start="635" selection-end="635" vertical-scroll-proportion="0.43057996" vertical-offset="115" max-vertical-offset="1404">
+                  <folding>
+                    <element signature="e#0#23#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -50,7 +52,7 @@
           <file leaf-file-name="DatabaseHandlerAndManaging.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/projekt 3/DatabaseHandlerAndManaging.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="0" selection-start="1786" selection-end="1786" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="936">
+                <state line="40" column="0" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="954">
                   <folding />
                 </state>
               </provider>
@@ -59,7 +61,7 @@
           <file leaf-file-name="uczelnia3.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/projekt 3/uczelnia3.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="6" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="8424">
+                <state line="89" column="52" selection-start="5025" selection-end="5025" vertical-scroll-proportion="-9.566667" vertical-offset="1315" max-vertical-offset="8424">
                   <folding />
                 </state>
               </provider>
@@ -72,7 +74,7 @@
           <file leaf-file-name="DatabaseHandlerAndManaging.py" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/projekt 3/DatabaseHandlerAndManaging.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="22" selection-start="981" selection-end="981" vertical-scroll-proportion="0.6010545" vertical-offset="0" max-vertical-offset="936">
+                <state line="46" column="31" selection-start="1948" selection-end="1948" vertical-scroll-proportion="1.4551846" vertical-offset="0" max-vertical-offset="954">
                   <folding />
                 </state>
               </provider>
@@ -110,15 +112,15 @@
         <option value="$PROJECT_DIR$/projekt 3/dd.py" />
         <option value="$PROJECT_DIR$/projekt 3/uczelnia2.py" />
         <option value="$PROJECT_DIR$/exircises/student_simulator.py" />
-        <option value="$PROJECT_DIR$/projekt 3/calldd.pyw" />
         <option value="$PROJECT_DIR$/projekt 3/DatabaseHandlerAndManaging.py" />
+        <option value="$PROJECT_DIR$/projekt 3/calldd.pyw" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1920" />
-    <option name="height" value="1056" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -162,6 +164,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -224,7 +227,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -539,7 +541,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
+    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -547,7 +549,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22889115" sideWeight="0.5002678" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3625" sideWeight="0.4997322" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3625" sideWeight="0.4997322" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986821" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -841,24 +843,26 @@
         <state line="49" column="64" selection-start="2204" selection-end="2204" vertical-scroll-proportion="0.4745167" vertical-offset="594" max-vertical-offset="1494" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projekt 3/uczelnia3.py">
+    <entry file="file://$PROJECT_DIR$/projekt 3/DatabaseHandlerAndManaging.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="6" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="8424">
+        <state line="40" column="0" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="954">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projekt 3/DatabaseHandlerAndManaging.py">
+    <entry file="file://$PROJECT_DIR$/projekt 3/uczelnia3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1786" selection-end="1786" vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="936">
+        <state line="89" column="52" selection-start="5025" selection-end="5025" vertical-scroll-proportion="-9.566667" vertical-offset="1315" max-vertical-offset="8424">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projekt 3/calldd.pyw">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="30" selection-start="698" selection-end="698" vertical-scroll-proportion="0.53608245" vertical-offset="84" max-vertical-offset="990">
-          <folding />
+        <state line="20" column="44" selection-start="635" selection-end="635" vertical-scroll-proportion="0.43057996" vertical-offset="115" max-vertical-offset="1404">
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
