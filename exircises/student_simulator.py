@@ -64,6 +64,14 @@ for x in range(1, random.randint(3, 15)):
 
 
 
+self.ui.tableWidget.setColumnCount(4)
+            self.ui.tableWidget.setRowCount(len(outputOfdane))
+            for i in outputOfdane:
+                a = Qt.QTableWidgetItem()
+                dupa = Qt.QTableWidgetItem.setText(self, "asdasd")
+
+                # a.setText(self, Qt.QTableWidgetItem.text(outputOfdane[i]))
+                self.ui.tableWidget.setItem(i, 0, QtGui.QTableWidgetItem.setText(a, dupa))
 
 
 
