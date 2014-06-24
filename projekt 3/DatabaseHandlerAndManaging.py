@@ -41,6 +41,11 @@ class DatabaseHandlerAndManaging(object):
             listFromDict.append(list[i].get(outParameter))
         return listFromDict
 
+    def updateStudent(self, indexNumber, firstName, sureName, pesel):
+        with self.con:
+            cur = self.con.cursor()
+            cur.execute("update students set firstName ='"+firstName+"', sureName ='"+sureName+"', pesel ='"+pesel+"' where id="+indexNumber+"")
+
 
 
 test = DatabaseHandlerAndManaging()
