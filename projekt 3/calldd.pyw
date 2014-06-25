@@ -14,11 +14,12 @@ class MyForm(QtGui.QDialog):
         self.ui.setupUi(self)
         self.dbHandler = DatabaseHandlerAndManaging()
         self.subjectsListPopulate()
-
+        self.specialisationsListPopulate()
 
         #odwolanie do metody
         self.ui.studentIndexNumberField.textChanged.connect(self.studentDynamicFilling)
         self.ui.tableWidget.itemClicked.connect(self.setLineEditsWithDataFromTable)
+        self.ui.specialisationsList.itemClicked.connect(self.setSubjectsForSpecialisation)
         self.ui.studentEditDataButton.clicked.connect(self.updateStudentData)
         self.ui.newStudentSubmitButton.clicked.connect(self.insertStudent)
         self.ui.newSubjectButton.clicked.connect(self.insertSubject)
@@ -72,12 +73,30 @@ class MyForm(QtGui.QDialog):
         out = [indexNumber, firstName, sureName, pesel]
         print(out)
 
+    def setSubjectsForSpecialisation(self):
+        rowNumber = self.ui.specialisationsList.currentRow()
+        list = str(self.ui.specialisationsList.item(rowNumber, 0).text())
+        topicsList = self.dbHandler.getSpecialisationTopicsList(list)
+        self.ui.specjalisationsSubjectsList.setRowCount(len(topicsList))
+        self.ui.specjalisationsSubjectsList.setColumnCount(1)
+        print(topicsList)
+        for x in range(0, len(topicsList)):
+            self.ui.specjalisationsSubjectsList.setItem(x, 0, QtGui.QTableWidgetItem(QString(topicsList[x])))
+
     def subjectsListPopulate(self):
         subjectList = self.dbHandler.getSubjectsFromDb()
         self.ui.tableWidgetSubjects.setRowCount(len(subjectList))
         self.ui.tableWidgetSubjects.setColumnCount(1)
         for x in range(0, len(subjectList)):
             self.ui.tableWidgetSubjects.setItem(x, 0, QtGui.QTableWidgetItem(QString(subjectList[x])))
+            self.ui.subjectsListForSpecialisation.addItem(QString(subjectList[x]))
+
+    def specialisationsListPopulate(self):
+        specialisationstList = self.dbHandler.getSpecialisationsList()
+        self.ui.specialisationsList.setRowCount(len(specialisationstList))
+        self.ui.specialisationsList.setColumnCount(1)
+        for x in range(0, len(specialisationstList)):
+            self.ui.specialisationsList.setItem(x, 0, QtGui.QTableWidgetItem(QString(specialisationstList[x])))
 
 
     def studentDynamicFilling(self):

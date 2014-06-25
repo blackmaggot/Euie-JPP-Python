@@ -66,5 +66,32 @@ class DatabaseHandlerAndManaging(object):
                 subjectList.append(encodedStringSubjectName)
             return subjectList
 
+    def getSpecialisationsList(self):
+        with self.con:
+            cur = self.con.cursor()
+            p = cur.execute("select specialisationName from specialisations").fetchall()
+            specialisations = []
+
+            for i in range(0, len(p)):
+                encodedStringSubjectName = str(p[i][0]).encode("utf-8")
+                if encodedStringSubjectName not in specialisations:
+                    specialisations.append(encodedStringSubjectName)
+                else:
+                    print("eldorado")
+            return specialisations
+
+
+    def getSpecialisationTopicsList(self, specName):
+        with self.con:
+            cur = self.con.cursor()
+            p = cur.execute("SELECT specialisationSubjects from specialisations where specialisationName = '"+specName+"'").fetchall()
+            specialisationsTopics = []
+
+            for i in range(0, len(p)):
+                encodedStringSubjectName = str(p[i][0]).encode("utf-8")
+                specialisationsTopics.append(encodedStringSubjectName)
+            return specialisationsTopics
+
+
 test = DatabaseHandlerAndManaging()
-print(test.getFromDb('lecturers'))
+print(test.getSpecialisationTopicsList('Cell Networks'))
