@@ -16,13 +16,15 @@ class MyForm(QtGui.QDialog):
         self.subjectsListPopulate()
         self.specialisationsListPopulate()
 
-        #odwolanie do metody
+
         self.ui.studentIndexNumberField.textChanged.connect(self.studentDynamicFilling)
         self.ui.tableWidget.itemClicked.connect(self.setLineEditsWithDataFromTable)
         self.ui.specialisationsList.itemClicked.connect(self.setSubjectsForSpecialisation)
         self.ui.studentEditDataButton.clicked.connect(self.updateStudentData)
         self.ui.newStudentSubmitButton.clicked.connect(self.insertStudent)
         self.ui.newSubjectButton.clicked.connect(self.insertSubject)
+        self.ui.newSpecialisationSubmitButton.clicked.connect(self.insertSpec)
+        self.ui.addSubjectToSpecialisationSubmitButton.clicked.connect(self.insertSubjectToSpec)
 
     def updateStudentData(self):
         firstName = str(self.ui.studentFirstNameField.text())
@@ -48,6 +50,15 @@ class MyForm(QtGui.QDialog):
         else:
             print "all fields must be filled with data"
 
+    def insertSpec(self):
+        specName = str(self.ui.newSpecialisationField.text())
+        if len(specName) != 0:
+            self.dbHandler.insertNewSpecialisation(specName)
+            self.ui.newSpecialisationField.clear()
+            self.specialisationsListPopulate()
+
+
+
     def insertSubject(self):
         subjectName= str(self.ui.newSubjectField.text())
         if len(subjectName) != 0:
@@ -57,6 +68,16 @@ class MyForm(QtGui.QDialog):
 
         else:
             print "all fields must be filled with data"
+
+    def insertSubjectToSpec(self):
+        specSelected = self.ui.specialisationsList.currentRow()
+        selectedSpecValue = str(self.ui.specialisationsList.item(specSelected, 0).text())
+        subjectName = str(self.ui.subjectsListForSpecialisation.currentText())
+        if len(subjectName) != 0:
+            self.dbHandler.insertNewSpecialisationSubjects(selectedSpecValue, subjectName)
+            self.ui.newSubjectField.clear()
+            self.subjectsListPopulate()
+
 
 
 

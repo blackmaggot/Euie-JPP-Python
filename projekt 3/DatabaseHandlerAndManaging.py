@@ -56,6 +56,17 @@ class DatabaseHandlerAndManaging(object):
             cur = self.con.cursor()
             cur.execute("insert into subjects (subjectName) values ('"+subjectName+"')")
 
+    def insertNewSpecialisation(self, specName):
+        with self.con:
+            cur = self.con.cursor()
+            cur.execute("insert into specialisations (specialisationName) values ('"+specName+"')")
+
+    def insertNewSpecialisationSubjects(self, specName, subjectName):
+        with self.con:
+            cur = self.con.cursor()
+            cur.execute("insert into specialisations (specialisationName, specialisationSubjects) values ('"+specName+"','"+subjectName+"')")
+
+
     def getSubjectsFromDb(self):
         with self.con:
             cur = self.con.cursor()
