@@ -1,10 +1,12 @@
-__author__ = 'blackmaggot'
+__author__ = 'WiktorMarchewka'
 
 
 class third:
-    second_exircice_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    third_exircise_list = [1, 2, 3, 7, 4, 6, 5, 8, 9, 10, 11]
     def list_sorting(self):
-        result_out = sorted(third.second_exircice_list)
+        result_out = sorted(third.third_exircise_list)
         print(result_out)
 
 
+test = third()
+test.list_sorting()

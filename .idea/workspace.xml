@@ -35,54 +35,21 @@
     <favorites_list name="zadania" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="calldd.pyw" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/projekt 3/calldd.pyw">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="78" column="39" selection-start="3482" selection-end="3482" vertical-scroll-proportion="0.67950964" vertical-offset="1016" max-vertical-offset="2916">
-                  <folding>
-                    <element signature="e#0#23#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DatabaseHandlerAndManaging.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/projekt 3/DatabaseHandlerAndManaging.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="51" column="30" selection-start="2311" selection-end="2311" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2052">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="uczelnia3.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/projekt 3/uczelnia3.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="22" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="7992">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="DatabaseHandlerAndManaging.py" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/projekt 3/DatabaseHandlerAndManaging.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="66" column="12" selection-start="2979" selection-end="2979" vertical-scroll-proportion="0.84938705" vertical-offset="703" max-vertical-offset="2052">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="calldd.pyw" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projekt 3/calldd.pyw">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="0" selection-start="2104" selection-end="2104" vertical-scroll-proportion="0.65753424" vertical-offset="498" max-vertical-offset="4464">
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#3530#3773#0" expanded="false" />
+                <element signature="e#5437#6090#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -99,21 +66,26 @@
         <option value="$PROJECT_DIR$/selector.py" />
         <option value="$PROJECT_DIR$/exircises/selector.py" />
         <option value="$PROJECT_DIR$/exircises/FirstExircise.py" />
-        <option value="$PROJECT_DIR$/exircises/second.exircise.py" />
         <option value="$PROJECT_DIR$/exircises/SecondTest.py" />
         <option value="$PROJECT_DIR$/exircises/fourth.exircise.py" />
-        <option value="$PROJECT_DIR$/exircises/fifth.exircise.py" />
         <option value="$PROJECT_DIR$/exircises/test.py" />
         <option value="$PROJECT_DIR$/Second tour/Library.py" />
-        <option value="$PROJECT_DIR$/exircises/ocena.py" />
-        <option value="$PROJECT_DIR$/exircises/sixth.exircise.py" />
         <option value="$PROJECT_DIR$/exircises/seventh.py" />
         <option value="$PROJECT_DIR$/exircises/tester.py" />
         <option value="$PROJECT_DIR$/projekt 3/dd.py" />
         <option value="$PROJECT_DIR$/projekt 3/uczelnia2.py" />
-        <option value="$PROJECT_DIR$/exircises/student_simulator.py" />
         <option value="$PROJECT_DIR$/projekt 3/DatabaseHandlerAndManaging.py" />
         <option value="$PROJECT_DIR$/projekt 3/calldd.pyw" />
+        <option value="$PROJECT_DIR$/projekt 3/uczelnia3.py" />
+        <option value="$PROJECT_DIR$/exircises/student_simulator.py" />
+        <option value="$PROJECT_DIR$/exircises/__init__.py" />
+        <option value="$PROJECT_DIR$/exircises/third.exircise.py" />
+        <option value="$PROJECT_DIR$/exircises/sixth.exircise.py" />
+        <option value="$PROJECT_DIR$/exircises/second.exircise.py" />
+        <option value="$PROJECT_DIR$/exircises/ocena.py" />
+        <option value="$PROJECT_DIR$/exircises/fifth.exircise.py" />
+        <option value="$PROJECT_DIR$/projektUczelniany/calldd.pyw" />
+        <option value="$PROJECT_DIR$/projektUczelniany/DatabaseHandlerAndManaging.py" />
       </list>
     </option>
   </component>
@@ -182,16 +154,6 @@
               <option name="myItemId" value="zadania" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zadania" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zadania" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="projekt 3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -211,20 +173,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zadania" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zadania" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Second tour" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -238,7 +186,7 @@
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="SearchEverywhereHistory" value="&#10;for&#10;amount_of_questions" />
+    <property name="SearchEverywhereHistory" value="groups&#10;for&#10;amount_of_questions" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -252,12 +200,10 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.calldd.pyw">
-    <configuration default="false" name="seventh" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittests in second.exircise" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exircises" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -265,34 +211,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="zadania" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exircises/seventh.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="tester" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exircises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="zadania" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exircises/tester.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exircises/second.exircise.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="student_simulator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="second.exircise" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -305,7 +238,45 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="zadania" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exircises/student_simulator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exircises/second.exircise.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ocena" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exircises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zadania" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exircises/ocena.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FirstExircise" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exircises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zadania" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exircises/FirstExircise.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -325,25 +296,6 @@
       <module name="zadania" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projekt 3/calldd.pyw" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="DatabaseHandlerAndManaging" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projekt 3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="zadania" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projekt 3/DatabaseHandlerAndManaging.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -477,19 +429,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.seventh" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tester" />
-      <item index="2" class="java.lang.String" itemvalue="Python.student_simulator" />
-      <item index="3" class="java.lang.String" itemvalue="Python.calldd.pyw" />
-      <item index="4" class="java.lang.String" itemvalue="Python.DatabaseHandlerAndManaging" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in second.exircise" />
+      <item index="1" class="java.lang.String" itemvalue="Python.second.exircise" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ocena" />
+      <item index="3" class="java.lang.String" itemvalue="Python.FirstExircise" />
+      <item index="4" class="java.lang.String" itemvalue="Python.calldd.pyw" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.calldd.pyw" />
-        <item index="1" class="java.lang.String" itemvalue="Python.DatabaseHandlerAndManaging" />
-        <item index="2" class="java.lang.String" itemvalue="Python.student_simulator" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tester" />
-        <item index="4" class="java.lang.String" itemvalue="Python.seventh" />
+        <item index="1" class="java.lang.String" itemvalue="Python.FirstExircise" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ocena" />
+        <item index="3" class="java.lang.String" itemvalue="Python.second.exircise" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in second.exircise" />
       </list>
     </recent_temporary>
   </component>
@@ -545,7 +497,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32999474" sideWeight="0.7739583" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32999474" sideWeight="0.7739583" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22889115" sideWeight="0.5002678" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -563,26 +515,6 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22889115" sideWeight="0.5002678" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36354166" sideWeight="0.4997322" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20137058" sideWeight="0.7739583" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986821" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -599,7 +531,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/exircises/student_simulator.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -663,29 +602,9 @@
         <state line="52" column="12" selection-start="1966" selection-end="1966" vertical-scroll-proportion="0.0" vertical-offset="619" max-vertical-offset="1584" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exircises/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="126" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Second tour/Library.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="198" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exircises/student_simulator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="0" selection-start="1904" selection-end="1904" vertical-scroll-proportion="0.0" vertical-offset="729" max-vertical-offset="1602" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exircises/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="126" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Second tour/Library.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="198" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exircises/student_simulator.py">
@@ -693,29 +612,9 @@
         <state line="34" column="53" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="1602" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exircises/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="126" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Second tour/Library.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="198" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exircises/student_simulator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="26" selection-start="2231" selection-end="2231" vertical-scroll-proportion="0.0" vertical-offset="1062" max-vertical-offset="1548" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exircises/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="126" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Second tour/Library.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="198" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exircises/second.exircise.py">
@@ -728,11 +627,6 @@
         <state line="6" column="55" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="288" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exircises/selector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="61" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="342" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exircises/FirstExircise.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="33" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="432" />
@@ -743,89 +637,9 @@
         <state line="14" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="360" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exircises/selector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="342" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exircises/SecondTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="54" selection-end="54" vertical-scroll-proportion="0.058536585" vertical-offset="0" max-vertical-offset="615" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exircises/second.exircise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="15" selection-start="46" selection-end="46" vertical-scroll-proportion="0.029268293" vertical-offset="0" max-vertical-offset="615" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exircises/FirstExircise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="398" selection-end="398" vertical-scroll-proportion="0.4097561" vertical-offset="0" max-vertical-offset="615" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exircises/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exircises/ocena.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="37" selection-start="670" selection-end="670" vertical-scroll-proportion="0.63047284" vertical-offset="0" max-vertical-offset="571" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exircises/fifth.exircise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="24" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1044" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exircises/third.exircise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="55" selection-start="188" selection-end="188" vertical-scroll-proportion="0.11332634" vertical-offset="0" max-vertical-offset="953" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exircises/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exircises/sixth.exircise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="19" selection-start="531" selection-end="531" vertical-scroll-proportion="0.36774194" vertical-offset="0" max-vertical-offset="930" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Second tour/Library.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="341" column="4" selection-start="11285" selection-end="11285" vertical-scroll-proportion="0.3321859" vertical-offset="5945" max-vertical-offset="92934" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exircises/tester.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="61" selection-end="61" vertical-scroll-proportion="0.21686748" vertical-offset="0" max-vertical-offset="581" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exircises/fourth.exircise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="763" selection-end="763" vertical-scroll-proportion="0.6971831" vertical-offset="0" max-vertical-offset="568" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exircises/seventh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="581" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projekt 3/dd1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="49" selection-start="10893" selection-end="10898" vertical-scroll-proportion="0.33271375" vertical-offset="3025" max-vertical-offset="5832" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projekt 3/uczelnia2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="9000" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/-1247972723/PyQt4/QtGui/QTableWidgetItem.py">
@@ -835,35 +649,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projekt 3/dd.py">
+    <entry file="file://$PROJECT_DIR$/exircises/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="334" selection-end="334" vertical-scroll-proportion="0.16494845" vertical-offset="120" max-vertical-offset="810" />
+        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exircises/fourth.exircise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="763" selection-end="763" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exircises/seventh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exircises/tester.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="10" selection-start="61" selection-end="61" vertical-scroll-proportion="0.2254025" vertical-offset="0" max-vertical-offset="559">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exircises/student_simulator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="64" selection-start="2204" selection-end="2204" vertical-scroll-proportion="0.4745167" vertical-offset="594" max-vertical-offset="1494" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0490367" vertical-offset="599" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exircises/sixth.exircise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="413" selection-end="413" vertical-scroll-proportion="0.46232876" vertical-offset="0" max-vertical-offset="584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exircises/second.exircise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="21" selection-start="222" selection-end="222" vertical-scroll-proportion="0.21290323" vertical-offset="0" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exircises/ocena.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="46" selection-start="679" selection-end="679" vertical-scroll-proportion="0.6164383" vertical-offset="0" max-vertical-offset="584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exircises/FirstExircise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="4" selection-start="398" selection-end="398" vertical-scroll-proportion="0.43150684" vertical-offset="0" max-vertical-offset="584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exircises/fifth.exircise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.030821918" vertical-offset="0" max-vertical-offset="584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exircises/third.exircise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="37" selection-start="83" selection-end="83" vertical-scroll-proportion="0.12328767" vertical-offset="0" max-vertical-offset="584">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projekt 3/uczelnia3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6624">
+        <state line="22" column="4" selection-start="576" selection-end="576" vertical-scroll-proportion="0.42580646" vertical-offset="0" max-vertical-offset="7020">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projekt 3/DatabaseHandlerAndManaging.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="30" selection-start="2311" selection-end="2311" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="2052">
+        <state line="2" column="29" selection-start="61" selection-end="61" vertical-scroll-proportion="0.03925845" vertical-offset="0" max-vertical-offset="2394">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projekt 3/calldd.pyw">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="39" selection-start="3482" selection-end="3482" vertical-scroll-proportion="0.67950964" vertical-offset="1016" max-vertical-offset="2916">
+        <state line="49" column="0" selection-start="2104" selection-end="2104" vertical-scroll-proportion="0.65753424" vertical-offset="498" max-vertical-offset="4464">
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#3530#3773#0" expanded="false" />
+            <element signature="e#5437#6090#0" expanded="false" />
           </folding>
         </state>
       </provider>

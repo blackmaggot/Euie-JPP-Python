@@ -1,6 +1,6 @@
 from symbol import return_stmt
 
-__author__ = 'blackmaggot'
+__author__ = 'WiktorMarchewka'
 import sqlite3 as lite
 
 
@@ -45,6 +45,10 @@ class DatabaseHandlerAndManaging(object):
         with self.con:
             cur = self.con.cursor()
             cur.execute("update students set firstName ='"+firstName+"', sureName ='"+sureName+"', pesel ='"+pesel+"' where id="+indexNumber+"")
+    def updateLecturer(self, firstName, sureName, pesel, lecturerNo):
+        with self.con:
+            cur = self.con.cursor()
+            cur.execute("update Lecturers set firstName ='"+firstName+"', sureName ='"+sureName+"', pesel ='"+pesel+"' where id='"+lecturerNo+"'")
 
     def insertNewStudent(self, firstName, sureName, pesel, adress):
         with self.con:
@@ -77,6 +81,8 @@ class DatabaseHandlerAndManaging(object):
                 subjectList.append(encodedStringSubjectName)
             return subjectList
 
+
+
     def getSpecialisationsList(self):
         with self.con:
             cur = self.con.cursor()
@@ -92,6 +98,19 @@ class DatabaseHandlerAndManaging(object):
             return specialisations
 
 
+    def getGroupsList(self):
+        with self.con:
+            cur = self.con.cursor()
+            p = cur.execute("select * from groups").fetchall()
+            groups = []
+
+            for i in range(0, len(p)):
+                encodedStringGroupNo = str(p[i][0]).encode("utf-8")
+                encodedStringGroupSpec = str(p[i][1]).encode("utf-8")
+                groups.append([encodedStringGroupNo, encodedStringGroupSpec])
+
+            return groups
+
     def getSpecialisationTopicsList(self, specName):
         with self.con:
             cur = self.con.cursor()
@@ -105,4 +124,4 @@ class DatabaseHandlerAndManaging(object):
 
 
 test = DatabaseHandlerAndManaging()
-print(test.getSpecialisationTopicsList('Cell Networks'))
+print(test.getGroupsList()[0][0])

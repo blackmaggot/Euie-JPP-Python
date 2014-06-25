@@ -18,4 +18,5 @@ def ocena(points_gained, max_points_to_earn):
     elif amount_of_percentages >= 95:
         return bdb
 
+#Test w postaci losowego wyniku random.randint
 print(ocena(random.randint(1, 50), 50))

@@ -1,10 +1,11 @@
+# coding=utf-8
 __author__ = 'WiktorMarchewka'
 
 class NumbersTriangle:
     def __init__(self):
-        self.rows_number = 1100
+        self.rows_number = 10
     def building_triangle(self):
-        for x in range(1, self.rows_number):
+        for x in range(1, self.rows_number+1):
             iterate = [x]
             while (len(iterate) < x):
                 iterate.extend([(iterate[-1]+x)])
@@ -12,12 +13,5 @@ class NumbersTriangle:
             print(listToString)
 
 
-
+#Wysokość trójkąta definiowana w konstruktorze klasy
 test = NumbersTriangle().building_triangle()
-
-# dupa = [1,2,3,4,5]
-# dupastring = ' '.join(str(e) for e in dupa)
-# print(dupastring)
-
-
-

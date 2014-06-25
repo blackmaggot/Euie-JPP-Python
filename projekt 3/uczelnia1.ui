@@ -6,37 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1038</width>
-    <height>600</height>
+    <width>738</width>
+    <height>366</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QDialogButtonBox" name="buttonBox">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>240</y>
-     <width>341</width>
-     <height>32</height>
-    </rect>
-   </property>
-   <property name="orientation">
-    <enum>Qt::Horizontal</enum>
-   </property>
-   <property name="standardButtons">
-    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
-   </property>
-  </widget>
   <widget class="QTabWidget" name="newStudentsTab">
    <property name="enabled">
     <bool>true</bool>
    </property>
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>100</y>
+     <x>10</x>
+     <y>10</y>
      <width>708</width>
      <height>343</height>
     </rect>
@@ -48,7 +32,7 @@
     </sizepolicy>
    </property>
    <property name="currentIndex">
-    <number>5</number>
+    <number>1</number>
    </property>
    <widget class="QWidget" name="R">
     <attribute name="title">
@@ -74,14 +58,18 @@
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_9">
           <item>
-           <widget class="QScrollBar" name="verticalScrollBarOfLecturersList">
-            <property name="orientation">
-             <enum>Qt::Vertical</enum>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QTableWidget" name="tableWidgetLecturer"/>
+           <layout class="QVBoxLayout" name="verticalLayout_14">
+            <item>
+             <widget class="QTableWidget" name="tableWidgetLecturer"/>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lecturerBrowser">
+              <property name="placeholderText">
+               <string>Wyszukaj</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
           </item>
          </layout>
         </item>
@@ -141,6 +129,13 @@
             </property>
            </widget>
           </item>
+          <item>
+           <widget class="QLineEdit" name="lecturerNo">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
          </layout>
         </item>
         <item>
@@ -150,7 +145,7 @@
       </item>
      </layout>
     </widget>
-    <widget class="QPushButton" name="studentEditDataButton_2">
+    <widget class="QPushButton" name="lecturerEditDataButton">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -172,20 +167,19 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_4">
        <item>
-        <layout class="QVBoxLayout" name="verticalLayout_4">
+        <layout class="QVBoxLayout" name="verticalLayout_4"/>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_15">
          <item>
-          <layout class="QHBoxLayout" name="horizontalLayout_3">
-           <item>
-            <widget class="QScrollBar" name="verticalScrollBarOfStudentsList">
-             <property name="orientation">
-              <enum>Qt::Vertical</enum>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QTableWidget" name="tableWidget"/>
-           </item>
-          </layout>
+          <widget class="QTableWidget" name="tableWidget"/>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="studentBrowser">
+           <property name="placeholderText">
+            <string>Wyszukaj</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -265,7 +259,7 @@
                 <bool>false</bool>
                </property>
                <property name="currentText" stdset="0">
-                <string>sacasc</string>
+                <string/>
                </property>
                <property name="insertPolicy">
                 <enum>QComboBox::InsertAfterCurrent</enum>
@@ -273,93 +267,6 @@
                <property name="frame">
                 <bool>true</bool>
                </property>
-               <item>
-                <property name="text">
-                 <string>sacasc</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>sacasc</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>ascascas</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>cascasca</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>scascasc</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>ascascasc</string>
-                </property>
-               </item>
-              </widget>
-             </item>
-            </layout>
-           </item>
-           <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_5">
-             <item>
-              <widget class="QLabel" name="studentYearLabel">
-               <property name="text">
-                <string>Rocznik</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QComboBox" name="studentYearDropdownList">
-               <property name="editable">
-                <bool>false</bool>
-               </property>
-               <property name="currentText" stdset="0">
-                <string>sacasc</string>
-               </property>
-               <property name="insertPolicy">
-                <enum>QComboBox::InsertAfterCurrent</enum>
-               </property>
-               <property name="frame">
-                <bool>true</bool>
-               </property>
-               <item>
-                <property name="text">
-                 <string>sacasc</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>sacasc</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>ascascas</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>cascasca</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>scascasc</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>ascascasc</string>
-                </property>
-               </item>
               </widget>
              </item>
             </layout>
@@ -462,63 +369,6 @@
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_13">
             <item>
-             <layout class="QHBoxLayout" name="horizontalLayout_14">
-              <item>
-               <widget class="QLabel" name="newStudentYearLabel">
-                <property name="text">
-                 <string>Rocznik</string>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QComboBox" name="newStudentYearDropdownList">
-                <property name="editable">
-                 <bool>false</bool>
-                </property>
-                <property name="currentText" stdset="0">
-                 <string>sacasc</string>
-                </property>
-                <property name="insertPolicy">
-                 <enum>QComboBox::InsertAfterCurrent</enum>
-                </property>
-                <property name="frame">
-                 <bool>true</bool>
-                </property>
-                <item>
-                 <property name="text">
-                  <string>sacasc</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>sacasc</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>ascascas</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>cascasca</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>scascasc</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>ascascasc</string>
-                 </property>
-                </item>
-               </widget>
-              </item>
-             </layout>
-            </item>
-            <item>
              <widget class="QLabel" name="newStudentGroupLabel">
               <property name="text">
                <string>Grupa</string>
@@ -534,7 +384,7 @@
                <bool>false</bool>
               </property>
               <property name="currentText" stdset="0">
-               <string>sacasc</string>
+               <string/>
               </property>
               <property name="insertPolicy">
                <enum>QComboBox::InsertAfterCurrent</enum>
@@ -542,36 +392,6 @@
               <property name="frame">
                <bool>true</bool>
               </property>
-              <item>
-               <property name="text">
-                <string>sacasc</string>
-               </property>
-              </item>
-              <item>
-               <property name="text">
-                <string>sacasc</string>
-               </property>
-              </item>
-              <item>
-               <property name="text">
-                <string>ascascas</string>
-               </property>
-              </item>
-              <item>
-               <property name="text">
-                <string>cascasca</string>
-               </property>
-              </item>
-              <item>
-               <property name="text">
-                <string>scascasc</string>
-               </property>
-              </item>
-              <item>
-               <property name="text">
-                <string>ascascasc</string>
-               </property>
-              </item>
              </widget>
             </item>
            </layout>
@@ -586,19 +406,7 @@
          </layout>
         </item>
         <item>
-         <layout class="QVBoxLayout" name="verticalLayout_10">
-          <item>
-           <widget class="QFrame" name="studentStatusFrame_2">
-            <property name="frameShape">
-             <enum>QFrame::StyledPanel</enum>
-            </property>
-            <property name="frameShadow">
-             <enum>QFrame::Raised</enum>
-            </property>
-            <layout class="QHBoxLayout" name="horizontalLayout_15"/>
-           </widget>
-          </item>
-         </layout>
+         <layout class="QVBoxLayout" name="verticalLayout_10"/>
         </item>
        </layout>
       </item>
@@ -621,13 +429,6 @@
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_16">
-        <item>
-         <widget class="QScrollBar" name="verticalScrollBar">
-          <property name="orientation">
-           <enum>Qt::Vertical</enum>
-          </property>
-         </widget>
-        </item>
         <item>
          <widget class="QTableWidget" name="tableWidgetSubjects"/>
         </item>
@@ -654,6 +455,32 @@
     <attribute name="title">
      <string>Specjalizacje</string>
     </attribute>
+    <widget class="QLabel" name="specLabel">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>10</y>
+       <width>66</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Specjalizacje</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="TopicsLabel">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>10</y>
+       <width>101</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Przedmioty</string>
+     </property>
+    </widget>
     <widget class="QWidget" name="">
      <property name="geometry">
       <rect>
@@ -674,7 +501,7 @@
           <item>
            <widget class="QPushButton" name="newSpecialisationSubmitButton">
             <property name="text">
-             <string>PushButton</string>
+             <string>Dodaj </string>
             </property>
            </widget>
           </item>
@@ -708,7 +535,7 @@
           <item>
            <widget class="QPushButton" name="addSubjectToSpecialisationSubmitButton">
             <property name="text">
-             <string>PushButton</string>
+             <string>Dodaj</string>
             </property>
            </widget>
           </item>
@@ -722,41 +549,42 @@
      </layout>
     </widget>
    </widget>
+   <widget class="QWidget" name="groups">
+    <attribute name="title">
+     <string>Grupy</string>
+    </attribute>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>30</y>
+       <width>303</width>
+       <height>229</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_16">
+      <item>
+       <widget class="QTableWidget" name="groupsListTableWidget"/>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_15">
+        <item>
+         <widget class="QPushButton" name="newGroupSubmitButton">
+          <property name="text">
+           <string>Nowa grupa</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="specialisationsComboList"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
   </widget>
  </widget>
  <resources/>
- <connections>
-  <connection>
-   <sender>buttonBox</sender>
-   <signal>accepted()</signal>
-   <receiver>Dialog</receiver>
-   <slot>accept()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>248</x>
-     <y>254</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>157</x>
-     <y>274</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>buttonBox</sender>
-   <signal>rejected()</signal>
-   <receiver>Dialog</receiver>
-   <slot>reject()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>316</x>
-     <y>260</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>286</x>
-     <y>274</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>
