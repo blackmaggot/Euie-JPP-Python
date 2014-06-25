@@ -46,7 +46,25 @@ class DatabaseHandlerAndManaging(object):
             cur = self.con.cursor()
             cur.execute("update students set firstName ='"+firstName+"', sureName ='"+sureName+"', pesel ='"+pesel+"' where id="+indexNumber+"")
 
+    def insertNewStudent(self, firstName, sureName, pesel, adress):
+        with self.con:
+            cur = self.con.cursor()
+            cur.execute("insert into students (firstName, sureName, pesel, adress) values ('"+firstName+"', '"+sureName+"', '"+pesel+"', '"+adress+"')")
 
+    def insertNewSubject(self, subjectName):
+        with self.con:
+            cur = self.con.cursor()
+            cur.execute("insert into subjects (subjectName) values ('"+subjectName+"')")
+
+    def getSubjectsFromDb(self):
+        with self.con:
+            cur = self.con.cursor()
+            p = cur.execute("select * from subjects").fetchall()
+            subjectList = []
+            for i in range(0, len(p)):
+                encodedStringSubjectName = str(p[i][1]).encode("utf-8")
+                subjectList.append(encodedStringSubjectName)
+            return subjectList
 
 test = DatabaseHandlerAndManaging()
 print(test.getFromDb('lecturers'))

@@ -29,7 +29,7 @@
     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
    </property>
   </widget>
-  <widget class="QTabWidget" name="studentsTab">
+  <widget class="QTabWidget" name="newStudentsTab">
    <property name="enabled">
     <bool>true</bool>
    </property>
@@ -48,7 +48,7 @@
     </sizepolicy>
    </property>
    <property name="currentIndex">
-    <number>2</number>
+    <number>4</number>
    </property>
    <widget class="QWidget" name="R">
     <attribute name="title">
@@ -65,7 +65,7 @@
        <x>10</x>
        <y>20</y>
        <width>686</width>
-       <height>262</height>
+       <height>258</height>
       </rect>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_8">
@@ -81,14 +81,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QListWidget" name="instructorListField">
-            <property name="editTriggers">
-             <set>QAbstractItemView::SelectedClicked</set>
-            </property>
-            <property name="selectionMode">
-             <enum>QAbstractItemView::MultiSelection</enum>
-            </property>
-           </widget>
+           <widget class="QTableWidget" name="tableWidgetLecturer"/>
           </item>
          </layout>
         </item>
@@ -99,7 +92,7 @@
         <item>
          <layout class="QVBoxLayout" name="verticalLayout_7">
           <item alignment="Qt::AlignBottom">
-           <widget class="QLabel" name="lecturerInformationLabel">
+           <widget class="QLabel" name="lecturerInformationsLabel_3">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
               <horstretch>0</horstretch>
@@ -121,100 +114,54 @@
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="instructorNameField">
+           <widget class="QLineEdit" name="lecturerFirstNameField_3">
             <property name="placeholderText">
              <string>Imię</string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="instructorSurNameField">
+           <widget class="QLineEdit" name="lecturerSureNameField_3">
             <property name="placeholderText">
              <string>Nazwisko</string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="peselField">
+           <widget class="QLineEdit" name="lecturerPeselNameField_3">
             <property name="placeholderText">
              <string>PESEL</string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="instructorAdressField">
+           <widget class="QLineEdit" name="lecturerAdressField_3">
             <property name="placeholderText">
              <string>Adres Zamieszkania</string>
             </property>
            </widget>
           </item>
-          <item>
-           <widget class="QLabel" name="instructorLecturesLabel">
-            <property name="text">
-             <string>Przedmioty wykładowcy</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QListWidget" name="instructorLecturesList">
-            <property name="editTriggers">
-             <set>QAbstractItemView::SelectedClicked</set>
-            </property>
-            <property name="selectionMode">
-             <enum>QAbstractItemView::MultiSelection</enum>
-            </property>
-            <item>
-             <property name="text">
-              <string>grge</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>re</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>ge</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>rg</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>erge</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>rg</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>erg</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>rege</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>rge</string>
-             </property>
-            </item>
-           </widget>
-          </item>
          </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_12"/>
         </item>
        </layout>
       </item>
      </layout>
+    </widget>
+    <widget class="QPushButton" name="studentEditDataButton_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>280</y>
+       <width>686</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Edytuj zmiany</string>
+     </property>
     </widget>
    </widget>
    <widget class="QWidget" name="Studenci">
@@ -420,64 +367,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QVBoxLayout" name="verticalLayout_2">
-           <item>
-            <widget class="QLabel" name="studentStatusLable">
-             <property name="maximumSize">
-              <size>
-               <width>16777215</width>
-               <height>16776381</height>
-              </size>
-             </property>
-             <property name="text">
-              <string>Status studenta</string>
-             </property>
-             <property name="scaledContents">
-              <bool>false</bool>
-             </property>
-             <property name="alignment">
-              <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QFrame" name="studentStatusFrame">
-             <property name="frameShape">
-              <enum>QFrame::StyledPanel</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-             <layout class="QHBoxLayout" name="horizontalLayout">
-              <item>
-               <layout class="QVBoxLayout" name="verticalLayout">
-                <item>
-                 <widget class="QRadioButton" name="studentOnListRadio">
-                  <property name="text">
-                   <string>Na liście studentów</string>
-                  </property>
-                 </widget>
-                </item>
-                <item>
-                 <widget class="QRadioButton" name="studendSuspendedRadio">
-                  <property name="text">
-                   <string>Zawieszony w prawach</string>
-                  </property>
-                 </widget>
-                </item>
-                <item>
-                 <widget class="QRadioButton" name="studentRemovedRadio">
-                  <property name="text">
-                   <string>Usunięty z listy studentów</string>
-                  </property>
-                 </widget>
-                </item>
-               </layout>
-              </item>
-             </layout>
-            </widget>
-           </item>
-          </layout>
+          <layout class="QVBoxLayout" name="verticalLayout_2"/>
          </item>
         </layout>
        </item>
@@ -494,9 +384,9 @@
     <zorder></zorder>
     <zorder>studentEditDataButton</zorder>
    </widget>
-   <widget class="QWidget" name="Oceny">
+   <widget class="QWidget" name="NowyStudent">
     <attribute name="title">
-     <string>Oceny</string>
+     <string>Nowy student</string>
     </attribute>
     <widget class="QWidget" name="layoutWidget_2">
      <property name="geometry">
@@ -504,25 +394,14 @@
        <x>10</x>
        <y>20</y>
        <width>686</width>
-       <height>258</height>
+       <height>281</height>
       </rect>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_7">
       <item>
        <layout class="QVBoxLayout" name="verticalLayout_8">
         <item>
-         <layout class="QHBoxLayout" name="horizontalLayout_11">
-          <item>
-           <widget class="QScrollBar" name="verticalScrollBarOfStudentsList_2">
-            <property name="orientation">
-             <enum>Qt::Vertical</enum>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QTableWidget" name="tableWidget_2"/>
-          </item>
-         </layout>
+         <layout class="QHBoxLayout" name="horizontalLayout_11"/>
         </item>
        </layout>
       </item>
@@ -531,7 +410,7 @@
         <item>
          <layout class="QVBoxLayout" name="verticalLayout_9">
           <item alignment="Qt::AlignBottom">
-           <widget class="QLabel" name="studentInformationsLabel_2">
+           <widget class="QLabel" name="newStudentInformationsLabel_2">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
               <horstretch>0</horstretch>
@@ -553,35 +432,28 @@
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="studentIndexNumberField_2">
-            <property name="placeholderText">
-             <string>Index</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLineEdit" name="studentFirstNameField_2">
+           <widget class="QLineEdit" name="newStudentFirstNameField">
             <property name="placeholderText">
              <string>Imię</string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="studentSureNameField_2">
+           <widget class="QLineEdit" name="newStudentSureNameField">
             <property name="placeholderText">
              <string>Nazwisko</string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="studentPeselNameField_2">
+           <widget class="QLineEdit" name="newStudentPeselNameField">
             <property name="placeholderText">
              <string>PESEL</string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="studentAdressField_2">
+           <widget class="QLineEdit" name="newStudentAdressField">
             <property name="placeholderText">
              <string>Adres Zamieszkania</string>
             </property>
@@ -590,14 +462,74 @@
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_13">
             <item>
-             <widget class="QLabel" name="studentGroupLabel_2">
+             <layout class="QHBoxLayout" name="horizontalLayout_14">
+              <item>
+               <widget class="QLabel" name="newStudentYearLabel">
+                <property name="text">
+                 <string>Rocznik</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="newStudentYearDropdownList">
+                <property name="editable">
+                 <bool>false</bool>
+                </property>
+                <property name="currentText" stdset="0">
+                 <string>sacasc</string>
+                </property>
+                <property name="insertPolicy">
+                 <enum>QComboBox::InsertAfterCurrent</enum>
+                </property>
+                <property name="frame">
+                 <bool>true</bool>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>sacasc</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>sacasc</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>ascascas</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>cascasca</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>scascasc</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>ascascasc</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QLabel" name="newStudentGroupLabel">
               <property name="text">
                <string>Grupa</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QComboBox" name="studentGroupDropdownList_2">
+             <widget class="QComboBox" name="newStudentGroupDropdownList">
               <property name="editable">
                <bool>false</bool>
               </property>
@@ -645,85 +577,16 @@
            </layout>
           </item>
           <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_14">
-            <item>
-             <widget class="QLabel" name="studentYearLabel_2">
-              <property name="text">
-               <string>Rocznik</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QComboBox" name="studentYearDropdownList_2">
-              <property name="editable">
-               <bool>false</bool>
-              </property>
-              <property name="currentText" stdset="0">
-               <string>sacasc</string>
-              </property>
-              <property name="insertPolicy">
-               <enum>QComboBox::InsertAfterCurrent</enum>
-              </property>
-              <property name="frame">
-               <bool>true</bool>
-              </property>
-              <item>
-               <property name="text">
-                <string>sacasc</string>
-               </property>
-              </item>
-              <item>
-               <property name="text">
-                <string>sacasc</string>
-               </property>
-              </item>
-              <item>
-               <property name="text">
-                <string>ascascas</string>
-               </property>
-              </item>
-              <item>
-               <property name="text">
-                <string>cascasca</string>
-               </property>
-              </item>
-              <item>
-               <property name="text">
-                <string>scascasc</string>
-               </property>
-              </item>
-              <item>
-               <property name="text">
-                <string>ascascasc</string>
-               </property>
-              </item>
-             </widget>
-            </item>
-           </layout>
+           <widget class="QPushButton" name="newStudentSubmitButton">
+            <property name="text">
+             <string>Zapisz</string>
+            </property>
+           </widget>
           </item>
          </layout>
         </item>
         <item>
          <layout class="QVBoxLayout" name="verticalLayout_10">
-          <item>
-           <widget class="QLabel" name="studentStatusLable_2">
-            <property name="maximumSize">
-             <size>
-              <width>16777215</width>
-              <height>16776381</height>
-             </size>
-            </property>
-            <property name="text">
-             <string>Status studenta</string>
-            </property>
-            <property name="scaledContents">
-             <bool>false</bool>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
-            </property>
-           </widget>
-          </item>
           <item>
            <widget class="QFrame" name="studentStatusFrame_2">
             <property name="frameShape">
@@ -732,33 +595,7 @@
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
             </property>
-            <layout class="QHBoxLayout" name="horizontalLayout_15">
-             <item>
-              <layout class="QVBoxLayout" name="verticalLayout_11">
-               <item>
-                <widget class="QRadioButton" name="studentOnListRadio_2">
-                 <property name="text">
-                  <string>Na liście studentów</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QRadioButton" name="studendSuspendedRadio_2">
-                 <property name="text">
-                  <string>Zawieszony w prawach</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QRadioButton" name="studentRemovedRadio_2">
-                 <property name="text">
-                  <string>Usunięty z listy studentów</string>
-                 </property>
-                </widget>
-               </item>
-              </layout>
-             </item>
-            </layout>
+            <layout class="QHBoxLayout" name="horizontalLayout_15"/>
            </widget>
           </item>
          </layout>
@@ -772,6 +609,46 @@
     <attribute name="title">
      <string>Przedmioty</string>
     </attribute>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>671</width>
+       <height>271</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_16">
+        <item>
+         <widget class="QScrollBar" name="verticalScrollBar">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="tableWidgetSubjects"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="newSubjectButton">
+          <property name="text">
+           <string>Nowy przedmiot</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="newSubjectField"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
    </widget>
   </widget>
  </widget>

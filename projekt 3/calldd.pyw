@@ -13,14 +13,17 @@ class MyForm(QtGui.QDialog):
         self.ui = Ui_Dialog()
         self.ui.setupUi(self)
         self.dbHandler = DatabaseHandlerAndManaging()
+        self.subjectsListPopulate()
 
 
         #odwolanie do metody
         self.ui.studentIndexNumberField.textChanged.connect(self.studentDynamicFilling)
         self.ui.tableWidget.itemClicked.connect(self.setLineEditsWithDataFromTable)
-        self.ui.studentEditDataButton.clicked.connect(self.dupa)
+        self.ui.studentEditDataButton.clicked.connect(self.updateStudentData)
+        self.ui.newStudentSubmitButton.clicked.connect(self.insertStudent)
+        self.ui.newSubjectButton.clicked.connect(self.insertSubject)
 
-    def dupa(self):
+    def updateStudentData(self):
         firstName = str(self.ui.studentFirstNameField.text())
         sureName = str(self.ui.studentSureNameField.text())
         pesel = str(self.ui.studentPeselNameField.text())
@@ -29,6 +32,31 @@ class MyForm(QtGui.QDialog):
             self.dbHandler.updateStudent(indexNumber, firstName, sureName, pesel)
         else:
             print "all fields must be filled with data"
+
+    def insertStudent(self):
+        firstName = str(self.ui.newStudentFirstNameField.text())
+        sureName = str(self.ui.newStudentSureNameField.text())
+        pesel = str(self.ui.newStudentPeselNameField.text())
+        adress = str(self.ui.newStudentAdressField.text())
+        if all([len(firstName) != 0, len(adress) != 0, len(sureName) != 0, len(pesel) != 0]):
+            self.dbHandler.insertNewStudent(firstName, sureName, pesel, adress)
+            self.ui.newStudentFirstNameField.clear()
+            self.ui.newStudentSureNameField.clear()
+            self.ui.newStudentPeselNameField.clear()
+            self.ui.newStudentAdressField.clear()
+        else:
+            print "all fields must be filled with data"
+
+    def insertSubject(self):
+        subjectName= str(self.ui.newSubjectField.text())
+        if len(subjectName) != 0:
+            self.dbHandler.insertNewSubject(subjectName)
+            self.ui.newSubjectField.clear()
+            self.subjectsListPopulate()
+
+        else:
+            print "all fields must be filled with data"
+
 
 
     def setLineEditsWithDataFromTable(self):
@@ -43,6 +71,13 @@ class MyForm(QtGui.QDialog):
         self.ui.studentPeselNameField.setText(QString(pesel))
         out = [indexNumber, firstName, sureName, pesel]
         print(out)
+
+    def subjectsListPopulate(self):
+        subjectList = self.dbHandler.getSubjectsFromDb()
+        self.ui.tableWidgetSubjects.setRowCount(len(subjectList))
+        self.ui.tableWidgetSubjects.setColumnCount(1)
+        for x in range(0, len(subjectList)):
+            self.ui.tableWidgetSubjects.setItem(x, 0, QtGui.QTableWidgetItem(QString(subjectList[x])))
 
 
     def studentDynamicFilling(self):
