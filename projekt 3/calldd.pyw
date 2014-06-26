@@ -29,6 +29,7 @@ class MyForm(QtGui.QDialog):
         self.ui.tableWidgetLecturer.itemClicked.connect(self.setLineEditsWithDataFromLecturersTable)
         self.ui.specialisationsList.itemClicked.connect(self.setSubjectsForSpecialisation)
 
+        self.ui.newGroupSubmitButton.clicked.connect(self.insertGroup)
         self.ui.studentEditDataButton.clicked.connect(self.updateStudentData)
         self.ui.newStudentSubmitButton.clicked.connect(self.insertStudent)
         self.ui.newSubjectButton.clicked.connect(self.insertSubject)
@@ -77,6 +78,14 @@ class MyForm(QtGui.QDialog):
             print "all fields must be filled with data"
         self.ui.tableWidget.clear()
         self.studentDynamicFilling()
+
+
+    def insertGroup(self):
+        spec = str(self.ui.specialisationsComboList.currentText())
+        self.dbHandler.insertNewGroup(spec)
+        self.ui.groupsListTableWidget.clear()
+        self.groupsListPopulate()
+
 
     def insertSpec(self):
         specName = str(self.ui.newSpecialisationField.text())
@@ -170,6 +179,8 @@ class MyForm(QtGui.QDialog):
             self.ui.groupsListTableWidget.setItem(x, 0, QtGui.QTableWidgetItem(QString(groupList[x][0])))
             self.ui.groupsListTableWidget.setItem(x, 1, QtGui.QTableWidgetItem(QString(groupList[x][1])))
             # self.ui.subjectsListForSpecialisation.addItem(QString(groupList[x]))
+        self.ui.groupsListTableWidget.setHorizontalHeaderLabels(QString("Numer grupy;Specjalizacja").split(";"))
+        self.ui.groupsListTableWidget.horizontalHeader().setStretchLastSection(True)
 
     def specialisationsListPopulate(self):
         specialisationstList = self.dbHandler.getSpecialisationsList()

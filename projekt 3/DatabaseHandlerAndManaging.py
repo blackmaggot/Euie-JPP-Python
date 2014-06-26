@@ -55,6 +55,11 @@ class DatabaseHandlerAndManaging(object):
             cur = self.con.cursor()
             cur.execute("insert into students (firstName, sureName, pesel, adress) values ('"+firstName+"', '"+sureName+"', '"+pesel+"', '"+adress+"')")
 
+    def insertNewGroup(self, spec):
+        with self.con:
+            cur = self.con.cursor()
+            cur.execute("insert into groups (groupSpecialisation) values ('"+spec+"')")
+
     def insertNewSubject(self, subjectName):
         with self.con:
             cur = self.con.cursor()
