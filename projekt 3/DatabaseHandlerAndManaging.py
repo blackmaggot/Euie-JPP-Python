@@ -76,19 +76,19 @@ class DatabaseHandlerAndManaging(object):
             cur.execute("insert into specialisations (specialisationName, specialisationSubjects) values ('"+specName+"','"+subjectName+"')")
 
 
-    def getSubjectsFromDb(self):
+    def getSubjectsFromDb(self): #done
         with self.con:
             cur = self.con.cursor()
             p = cur.execute("select * from subjects").fetchall()
             subjectList = []
             for i in range(0, len(p)):
-                encodedStringSubjectName = str(p[i][1]).encode("utf-8")
+                encodedStringSubjectName = str(p[i]).encode("utf-8")
                 subjectList.append(encodedStringSubjectName)
             return subjectList
 
 
 
-    def getSpecialisationsList(self):
+    def getSpecialisationsList(self): #done
         with self.con:
             cur = self.con.cursor()
             p = cur.execute("select specialisationName from specialisations").fetchall()
@@ -103,7 +103,7 @@ class DatabaseHandlerAndManaging(object):
             return specialisations
 
 
-    def getGroupsList(self):
+    def getGroupsList(self): #done
         with self.con:
             cur = self.con.cursor()
             p = cur.execute("select * from groups").fetchall()
@@ -129,4 +129,4 @@ class DatabaseHandlerAndManaging(object):
 
 
 test = DatabaseHandlerAndManaging()
-print(test.getGroupsList()[0][0])
+print(test.getSubjectsFromDb())
