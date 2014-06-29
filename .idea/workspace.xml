@@ -38,36 +38,13 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="calldd.py" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="calldd.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/projekt 3/calldd.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="166" column="19" selection-start="7305" selection-end="7316" vertical-scroll-proportion="-3.6666667" vertical-offset="700" max-vertical-offset="1404">
+                <state line="186" column="82" selection-start="8775" selection-end="8775" vertical-scroll-proportion="0.53089887" vertical-offset="2970" max-vertical-offset="5040">
                   <folding>
-                    <element signature="e#262#1622#0" expanded="false" />
-                    <element signature="e#1665#2226#0" expanded="false" />
-                    <element signature="e#2271#2813#0" expanded="false" />
-                    <element signature="e#2853#3617#0" expanded="false" />
-                    <element signature="e#3655#3837#0" expanded="false" />
-                    <element signature="e#3874#4117#0" expanded="false" />
-                    <element signature="e#4158#4452#0" expanded="false" />
-                    <element signature="e#4497#5026#0" expanded="false" />
-                    <element signature="e#5084#5716#0" expanded="false" />
-                    <element signature="e#5781#6434#0" expanded="false" />
-                    <element signature="e#6489#7205#0" expanded="false" />
-                    <element signature="e#8018#8777#0" expanded="false" />
-                    <element signature="e#8830#9552#0" expanded="false" />
-                    <element signature="e#9600#12068#0" expanded="false" />
-                    <element signature="e#12117#14345#0" expanded="false" />
+                    <element signature="e#0#23#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app_sing.py" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$USER_HOME$/app_sing.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="533" column="12" selection-start="20138" selection-end="20142" vertical-scroll-proportion="-0.88500565" vertical-offset="10271" max-vertical-offset="17496">
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -75,10 +52,9 @@
           <file leaf-file-name="Fabric.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/projekt 3/Fabric.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="58" column="22" selection-start="2669" selection-end="2669" vertical-scroll-proportion="0.0" vertical-offset="258" max-vertical-offset="1188">
+                <state line="54" column="28" selection-start="100" selection-end="2834" vertical-scroll-proportion="0.0" vertical-offset="433" max-vertical-offset="1188">
                   <folding>
-                    <marker date="1403990761430" expanded="true" signature="77:2629" placeholder="..." />
-                    <marker date="1403990761430" expanded="true" signature="166:2629" placeholder="..." />
+                    <element signature="e#31#53#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -88,10 +64,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="app_sing.py" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$USER_HOME$/app_sing.py">
+          <file leaf-file-name="DatabaseHandlerAndManaging.py" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/projekt 3/DatabaseHandlerAndManaging.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="22" selection-start="598" selection-end="598" vertical-scroll-proportion="0.3925845" vertical-offset="0" max-vertical-offset="17496">
+                <state line="9" column="4" selection-start="196" selection-end="196" vertical-scroll-proportion="0.21832883" vertical-offset="0" max-vertical-offset="2502">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Singleton.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/projekt 3/Singleton.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="16" column="28" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
                   <folding />
                 </state>
               </provider>
@@ -135,9 +120,10 @@
         <option value="$PROJECT_DIR$/projektUczelniany/DatabaseHandlerAndManaging.py" />
         <option value="$PROJECT_DIR$/exircises/fifth.exircise.py" />
         <option value="$PROJECT_DIR$/projekt 3/calldd.pyw" />
-        <option value="$PROJECT_DIR$/projekt 3/Fabric.py" />
-        <option value="$PROJECT_DIR$/projekt 3/calldd.py" />
+        <option value="$PROJECT_DIR$/projekt 3/Singleton.py" />
         <option value="$PROJECT_DIR$/projekt 3/DatabaseHandlerAndManaging.py" />
+        <option value="$PROJECT_DIR$/projekt 3/calldd.py" />
+        <option value="$PROJECT_DIR$/projekt 3/Fabric.py" />
       </list>
     </option>
   </component>
@@ -251,7 +237,7 @@
       <recent name="$PROJECT_DIR$/exircises" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DatabaseHandlerAndManaging">
+  <component name="RunManager" selected="Python.calldd">
     <configuration default="false" name="calldd.pyw" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -483,8 +469,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.DatabaseHandlerAndManaging" />
-        <item index="1" class="java.lang.String" itemvalue="Python.calldd" />
+        <item index="0" class="java.lang.String" itemvalue="Python.calldd" />
+        <item index="1" class="java.lang.String" itemvalue="Python.DatabaseHandlerAndManaging" />
         <item index="2" class="java.lang.String" itemvalue="Python.Fabric" />
         <item index="3" class="java.lang.String" itemvalue="Python.calldd.pyw" />
         <item index="4" class="java.lang.String" itemvalue="Python.fifth.exircise" />
@@ -547,7 +533,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22889115" sideWeight="0.5002678" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18229167" sideWeight="0.4997322" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18229167" sideWeight="0.4997322" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986821" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -591,17 +577,7 @@
     <entry file="file://$PROJECT_DIR$/projekt 3/DatabaseHandlerAndManaging.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="81" selection-start="2891" selection-end="2891" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2484">
-          <folding>
-            <element signature="e#208#1390#0" expanded="false" />
-            <element signature="e#1742#1881#0" expanded="false" />
-            <element signature="e#1961#2156#0" expanded="false" />
-            <element signature="e#2235#2432#0" expanded="false" />
-            <element signature="e#2510#2713#0" expanded="false" />
-            <element signature="e#2759#2897#0" expanded="false" />
-            <element signature="e#2952#3091#0" expanded="false" />
-            <element signature="e#3150#3300#0" expanded="false" />
-            <element signature="e#3380#3572#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -790,60 +766,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/projekt 3/Singleton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="28" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/app_sing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="8" selection-start="1429" selection-end="1429" vertical-scroll-proportion="-17.4" vertical-offset="270" max-vertical-offset="17496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/projekt 3/DatabaseHandlerAndManaging.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="3573" selection-end="3573" vertical-scroll-proportion="0.37759337" vertical-offset="521" max-vertical-offset="1728">
+        <state line="9" column="4" selection-start="196" selection-end="196" vertical-scroll-proportion="0.21832883" vertical-offset="0" max-vertical-offset="2502">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projekt 3/Fabric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="28" selection-start="100" selection-end="2834" vertical-scroll-proportion="0.0" vertical-offset="433" max-vertical-offset="1188">
           <folding>
-            <element signature="e#208#1390#0" expanded="false" />
-            <element signature="e#1742#1881#0" expanded="false" />
-            <element signature="e#1961#2156#0" expanded="false" />
-            <element signature="e#2235#2432#0" expanded="false" />
-            <element signature="e#2510#2713#0" expanded="false" />
-            <element signature="e#2759#2897#0" expanded="false" />
-            <element signature="e#2952#3091#0" expanded="false" />
-            <element signature="e#3150#3300#0" expanded="false" />
-            <element signature="e#3380#3572#0" expanded="false" />
+            <element signature="e#31#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projekt 3/calldd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="19" selection-start="7305" selection-end="7316" vertical-scroll-proportion="-3.6666667" vertical-offset="700" max-vertical-offset="1404">
+        <state line="186" column="82" selection-start="8775" selection-end="8775" vertical-scroll-proportion="0.53089887" vertical-offset="2970" max-vertical-offset="5040">
           <folding>
-            <element signature="e#262#1622#0" expanded="false" />
-            <element signature="e#1665#2226#0" expanded="false" />
-            <element signature="e#2271#2813#0" expanded="false" />
-            <element signature="e#2853#3617#0" expanded="false" />
-            <element signature="e#3655#3837#0" expanded="false" />
-            <element signature="e#3874#4117#0" expanded="false" />
-            <element signature="e#4158#4452#0" expanded="false" />
-            <element signature="e#4497#5026#0" expanded="false" />
-            <element signature="e#5084#5716#0" expanded="false" />
-            <element signature="e#5781#6434#0" expanded="false" />
-            <element signature="e#6489#7205#0" expanded="false" />
-            <element signature="e#8018#8777#0" expanded="false" />
-            <element signature="e#8830#9552#0" expanded="false" />
-            <element signature="e#9600#12068#0" expanded="false" />
-            <element signature="e#12117#14345#0" expanded="false" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projekt 3/Fabric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="22" selection-start="2669" selection-end="2669" vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1188">
-          <folding>
-            <marker date="1403990761430" expanded="true" signature="77:2629" placeholder="..." />
-            <marker date="1403990761430" expanded="true" signature="166:2629" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/app_sing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="22" selection-start="598" selection-end="598" vertical-scroll-proportion="0.3925845" vertical-offset="0" max-vertical-offset="17496">
-          <folding />
         </state>
       </provider>
     </entry>

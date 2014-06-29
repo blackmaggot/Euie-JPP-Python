@@ -2,13 +2,14 @@ from symbol import return_stmt
 
 __author__ = 'WiktorMarchewka'
 import sqlite3 as lite
+from Singleton import *
 
 
 class DatabaseHandlerAndManaging(object):
     con = lite.connect('uczelnia.db')
     def getFromDb(self, table):
-        with self.con:
-            cur = self.con.cursor()
+        with Singleton.con:
+            cur = Singleton.cur
             # cur.execute("drop table Students")
             # cur.execute("CREATE TABLE Students(id INTEGER PRIMARY KEY AUTOINCREMENT, indexNumber INT, firstName TEXT, sureName TEXT, pesel TEXT, adress TEXT)")
             #cur.execute("INSERT INTO Students(indexNumber, firstName, sureName, pesel, adress) VALUES(2, 'Darek', 'Sekacz', '8888', 'daleko6')")
@@ -16,11 +17,11 @@ class DatabaseHandlerAndManaging(object):
             p = cur.execute("select * from "+table).fetchall()
             firstNamesList = []
             for i in range(0, len(p)):
-                # encodedString = str(row).encode("utf-8")
-                encodedStringIndex = str(p[i][0]).encode("utf-8")
-                encodedStringName = str(p[i][1]).encode("utf-8")
-                encodedStringSurename = str(p[i][2]).encode("utf-8")
-                encodedStringPesel = str(p[i][3]).encode("utf-8")
+                # encodedString = str(row).encode(Singleton.encode)
+                encodedStringIndex = str(p[i][0]).encode(Singleton.encode)
+                encodedStringName = str(p[i][1]).encode(Singleton.encode)
+                encodedStringSurename = str(p[i][2]).encode(Singleton.encode)
+                encodedStringPesel = str(p[i][3]).encode(Singleton.encode)
 
                 firstNamesList.append([encodedStringIndex, encodedStringName, encodedStringSurename, encodedStringPesel])
             return firstNamesList
@@ -42,60 +43,60 @@ class DatabaseHandlerAndManaging(object):
         return listFromDict
 
     def updateStudent(self, indexNumber, firstName, sureName, pesel):
-        with self.con:
-            cur = self.con.cursor()
+        with Singleton.con:
+            cur = Singleton.cur
             cur.execute("update students set firstName ='"+firstName+"', sureName ='"+sureName+"', pesel ='"+pesel+"' where id="+indexNumber+"")
     def updateLecturer(self, firstName, sureName, pesel, lecturerNo):
-        with self.con:
-            cur = self.con.cursor()
+        with Singleton.con:
+            cur = Singleton.cur
             cur.execute("update Lecturers set firstName ='"+firstName+"', sureName ='"+sureName+"', pesel ='"+pesel+"' where id='"+lecturerNo+"'")
 
     def insertNewStudent(self, firstName, sureName, pesel, adress):
-        with self.con:
-            cur = self.con.cursor()
+        with Singleton.con:
+            cur = Singleton.cur
             cur.execute("insert into students (firstName, sureName, pesel, adress) values ('"+firstName+"', '"+sureName+"', '"+pesel+"', '"+adress+"')")
 
     def insertNewGroup(self, spec):
-        with self.con:
-            cur = self.con.cursor()
+        with Singleton.con:
+            cur = Singleton.cur
             cur.execute("insert into groups (groupSpecialisation) values ('"+spec+"')")
 
     def insertNewSubject(self, subjectName):
-        with self.con:
-            cur = self.con.cursor()
+        with Singleton.con:
+            cur = Singleton.cur
             cur.execute("insert into subjects (subjectName) values ('"+subjectName+"')")
 
     def insertNewSpecialisation(self, specName):
-        with self.con:
-            cur = self.con.cursor()
+        with Singleton.con:
+            cur = Singleton.cur
             cur.execute("insert into specialisations (specialisationName) values ('"+specName+"')")
 
     def insertNewSpecialisationSubjects(self, specName, subjectName):
-        with self.con:
-            cur = self.con.cursor()
+        with Singleton.con:
+            cur = Singleton.cur
             cur.execute("insert into specialisations (specialisationName, specialisationSubjects) values ('"+specName+"','"+subjectName+"')")
 
 
     def getSubjectsFromDb(self): #done
-        with self.con:
-            cur = self.con.cursor()
+        with Singleton.con:
+            cur = Singleton.cur
             p = cur.execute("select * from subjects").fetchall()
             subjectList = []
             for i in range(0, len(p)):
-                encodedStringSubjectName = str(p[i]).encode("utf-8")
+                encodedStringSubjectName = str(p[i]).encode(Singleton.encode)
                 subjectList.append(encodedStringSubjectName)
             return subjectList
 
 
 
     def getSpecialisationsList(self): #done
-        with self.con:
-            cur = self.con.cursor()
+        with Singleton.con:
+            cur = Singleton.cur
             p = cur.execute("select specialisationName from specialisations").fetchall()
             specialisations = []
 
             for i in range(0, len(p)):
-                encodedStringSubjectName = str(p[i][0]).encode("utf-8")
+                encodedStringSubjectName = str(p[i][0]).encode(Singleton.encode)
                 if encodedStringSubjectName not in specialisations:
                     specialisations.append(encodedStringSubjectName)
                 else:
@@ -104,26 +105,26 @@ class DatabaseHandlerAndManaging(object):
 
 
     def getGroupsList(self): #done
-        with self.con:
-            cur = self.con.cursor()
+        with Singleton.con:
+            cur = Singleton.cur
             p = cur.execute("select * from groups").fetchall()
             groups = []
 
             for i in range(0, len(p)):
-                encodedStringGroupNo = str(p[i][0]).encode("utf-8")
-                encodedStringGroupSpec = str(p[i][1]).encode("utf-8")
+                encodedStringGroupNo = str(p[i][0]).encode(Singleton.encode)
+                encodedStringGroupSpec = str(p[i][1]).encode(Singleton.encode)
                 groups.append([encodedStringGroupNo, encodedStringGroupSpec])
 
             return groups
 
     def getSpecialisationTopicsList(self, specName):
-        with self.con:
-            cur = self.con.cursor()
+        with Singleton.con:
+            cur = Singleton.cur
             p = cur.execute("SELECT specialisationSubjects from specialisations where specialisationName = '"+specName+"'").fetchall()
             specialisationsTopics = []
 
             for i in range(0, len(p)):
-                encodedStringSubjectName = str(p[i][0]).encode("utf-8")
+                encodedStringSubjectName = str(p[i][0]).encode(Singleton.encode)
                 specialisationsTopics.append(encodedStringSubjectName)
             return specialisationsTopics
 
